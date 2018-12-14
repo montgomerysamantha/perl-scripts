@@ -12,10 +12,11 @@ print "Here is the alphabet: ", ('a' .. 'z'), "\n";
 print "Alphabet reversed: ", reverse('a' .. 'z'), "\n";
 
 my @alpha = ('a' .. 'z');
+my $alphalen = @alpha; #getting the length of the array
 
 #printing the alphabet with some nice spaces between
 print "Alphabet but with spaces: ";
-for (my $i = 0; $i <= 25; $i++)
+for (my $i = 0; $i < $alphalen; $i++)
 {
   print "$alpha[$i] ";
 }
