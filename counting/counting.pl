@@ -21,4 +21,6 @@ for (my $i = 0; $i < $alphalen; $i++)
   print "$alpha[$i] ";
 }
 print "\n";
+
+print "@alpha\n";
 print "\n";
