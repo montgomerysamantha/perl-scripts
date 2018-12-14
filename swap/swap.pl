@@ -1,4 +1,7 @@
+#!/usr/bin/env perl
 #swap.pl
+use warnings;
+use strict;
 
 $cappuccino;
 $coffee;
