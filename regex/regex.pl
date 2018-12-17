@@ -10,3 +10,11 @@ if ($string =~ /beef/)
 {
   print "Found the word 'beef' in the string!\n";
 }
+
+print "Enter a string: ";
+$string = <STDIN>;
+chomp($string); #remove newline
+if ($string =~ /\.$/)
+{
+  print "The string entered ends in a period.\n";
+}
