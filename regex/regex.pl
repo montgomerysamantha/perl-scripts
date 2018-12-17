@@ -18,3 +18,7 @@ if ($string =~ /\.$/)
 {
   print "The string entered ends in a period.\n";
 }
+if ($string =~ /^[A-Z]/)
+{
+  print "The string begins with a capitalized letter.\n";
+}
